@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, monospace;
+    /* border: 1px solid blue; */
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.wrapper {
+    width: 700px;
+    padding: 20px;
+    margin: 20px;
+
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+/* ######################### */
+/*          TITLE            */
+/* ######################### */
+
+.title {
+    border-bottom: 5px solid hsl(15, 100%, 50%);
+    margin-bottom: 50px;
+}
+
+.title h1 {
+    color: hsl(15, 100%, 50%);
+    margin-bottom: 10px;
+}
+
+.title p {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+/* ######################### */
+/*          DYSON            */
+/* ######################### */
+
+.dyson {
+    /* border: 3px solid red; */
+}
+
+.dyson .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dyson .row div {
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* border: 3px solid blue; */
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.dyson div img {
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 280px;
+    height: 280px;
+}
+
+.dyson div span {
+    color: cyan;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.dyson div h1 {
+    color: white;
+}
+
+.dyson div p {
+    width: 280px;
+    font-weight: bold;
+    /* color: white; */
+}
+
+.dyson .explanation {
+    margin: 50px 0px;
+    text-align: justify;
+}
+
+.dyson .explanation span {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.dyson .explanation span span {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* ######################### */
+/*          TECH             */
+/* ######################### */
+
+.technologies {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.technologies .sign {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.technologies .step {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: grey;
+    padding: 20px;
+}
+
+.technologies .step div {
+    width: 120px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.technologies .step div img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.technologies .step .caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+.technologies .step .goal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.technologies .step .goal .first {
+    color: orangered;
+}
+
+.technologies .step .goal .second {
+    color: yellow;
+}
+
+
+/* ######################### */
+/*          SUMMARY          */
+/* ######################### */
+
+.summary {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 5px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.summary .idea {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+.summary .disclaimer {
+    font-size: 20px;
+}
+
+/* ######################### */
+/*          BONUS            */
+/* ######################### */
+
+.bonus {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bonus p {
+    /* border: 1px solid red; */
+    font-size: 20px;
+    text-align: justify;
+}
+
+.bonus p span {
+    font-weight: bolder;
+}
+
+.bonus p span:nth-of-type(1) {
+    color: red;
+}
+
+.bonus p span:nth-of-type(2) {
+    color: blue;
+}
+
+.bonus div {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.bonus div img {
+    height: 200px;
+    width: 330px;
+    border-radius: 10px;
+}
